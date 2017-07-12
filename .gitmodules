@@ -1,0 +1,4 @@
+[submodule "src/pal"]
+	path = src/pal
+	url = https://github.com/TreeCmp/pal.git
+	branch = src
