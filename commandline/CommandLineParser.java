@@ -55,22 +55,21 @@ public class CommandLineParser {
     private final static String CMD_ERROR = "Error. There is a problem with parsing the command line. See the usage below.\n";
 
 
-    private final static String D_DESC = "- Allow to specify distances (from 1 up to 9):\n"+
+    private final static String D_DESC = "- Allow to specify distances (from 1 up to 11):\n"+
                                         "Metrics for unrooted trees:\n" +
                                         " ms - the Matching Split metric,\n"+
                                         " rf - the Robinson-Foulds metric,\n"+
                                         " pd - the Path Difference metric,\n"+
                                         " qt - the Quartet metric,\n"+
                                         " um - the UMAST metric,\n"+
-                                        " wrf - the Weighted Robinson-Foulds metric,\n"+
+                                        /*" wrf - the Weighted Robinson-Foulds metric,\n"+*/
                                         "Metrics for rooted trees:\n" +
                                         " mc - the Matching Cluster metric,\n"+
                                         " rc - the Robinson-Foulds metric based on clusters,\n" +
                                         " ns - the Nodal Splitted metric with L2 norm,\n"+
                                         " tt - the Triples metric,\n"+
                                         " mp - the Matching Pair metric.\n"+
-                                        " mt1 - the MAST metric (ver. 1).\n"+
-                                        " mt2 - the MAST metric (ver. 2)().\n"+
+                                        " mt - the RMAST metric.\n"+
                                         "Example: -d ms rf\n";
 
     private final static String D_ARG = "metrics";
