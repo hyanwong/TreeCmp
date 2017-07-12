@@ -1,4 +1,5 @@
 Manifest-Version: 1.0
 Main-Class: treecmp.Main
-Specification-Version: 1.1
-Implementation-Version: build309
+Specification-Version: 1.2
+Implementation-Version: build2
+Class-Path: lib/commons-cli-1.4.jar
