@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="jar" build-on-make="true" name="treeCmp:jar">
-    <output-path>$PROJECT_DIR$/out/artifacts/treeCmp_jar</output-path>
-    <root id="archive" name="treeCmp.jar">
-      <element id="module-output" name="treeCmp" />
-    </root>
-  </artifact>
-</component>
